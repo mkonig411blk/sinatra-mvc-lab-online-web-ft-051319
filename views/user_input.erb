@@ -1,3 +1,20 @@
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--  <head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>title</title>-->
+<!--  </head>-->
+<!--  <body>-->
+<!--    <h1>Pig Latinizer!</h1>-->
+<!--    <form action="/piglatinize" method="post">-->
+<!--      <label for="input">Enter your phrase:</label>-->
+<!--      <input type="text" name="user_phrase" id="input">-->
+<!--      <input id="submit" type="submit">-->
+<!--    </form>-->
+<!--  </body>-->
+<!--</html>-->
+
+    
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,10 +23,10 @@
   </head>
   <body>
     <h1>Pig Latinizer!</h1>
-    <form action="/piglatinize" method="post">
-      <label for="input">Enter your phrase:</label>
-      <input type="text" name="user_phrase" id="input">
-      <input id="submit" type="submit">
+    <form method="POST" action="/piglatinize">
+      <label for="phrase">Enter your phrase:</label>
+      <input type="text" id="phrase" name='user_phrase'>
+      <input type="submit">
     </form>
   </body>
 </html>
