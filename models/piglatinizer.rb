@@ -1,5 +1,5 @@
-
 class PigLatinizer
+  
   def to_pig_latin(phrase)
     array = phrase.split(" ")
     pig_array = array.collect {|w| piglatinize(w)}
